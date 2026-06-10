@@ -1,4 +1,6 @@
 <?php
+
+// Cambio de prueba Jenkins
 $titulo = 'Dashboard';
 require __DIR__ . '/../layouts/cabecera.php';
 $ini = strtoupper(substr($usuario['nombre'], 0, 1) . substr($usuario['apellido'], 0, 1));
